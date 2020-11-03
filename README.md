@@ -4,12 +4,7 @@ MatrixApp es una aplicación web que crea y multiplica matrices cuadrados de n t
 Las comunicaciones que tiene la aplciación cumplen con los estándares de seguridad y los principios de integridad, autorización y autentitación. Se implementaron un par de llaves (públicas y privada) y se generó un cretificado para poder realizar conexiones a través del protocolo https entre el cliente y el servidor, implementado en un máquina virtual EC2 de AWS. También se usó un contenedor de Docker para almacenar la aplicación.
 
 
-## Diseño
-Diagrama de clases de la aplicación:
-
-![]()
-
-
+![](img/app.PNG)
 
 ## Tutorial de Disponibilidad y Desempeño
 En este tutorial se explicará  una forma de usar las capacidades de autoescalamiento de Amazon Web Services. La aplicación MatrixApp tiene esta capacidad y su construcción es un ejemplo de las diferentes oportunidades que nos brinda AWS con esta herramienta.
@@ -21,10 +16,8 @@ Antes de Iniciar el tutorial, debemos crear una instancia de EC2, preferiblement
 
 1. Vamos al panel de EC2, seleccionamos la instancia que acabamos de crear y damos click derecho sobre ella para crear una imagen (AMI).
 
-Poner imagen
-![]()
+![](img/ami.PNG)
   
-
 2. Vamos a crear una plantilla de lanzamiento para nuestras instancias de EC2. Dirijase a la sección de "Auto Scaling" y seleecione la opción de Launch Configuration. 
 
 ![](img/aoto1.PNG)
