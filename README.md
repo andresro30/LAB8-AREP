@@ -6,6 +6,10 @@ Las comunicaciones que tiene la aplciación cumplen con los estándares de segur
 
 ![](img/app.PNG)
 
+## Despliegue en AWS
+
+[Despliegue de la aplicación](https://ec2-18-232-54-242.compute-1.amazonaws.com:4567/)
+
 ## Tutorial de Disponibilidad y Desempeño
 En este tutorial se explicará  una forma de usar las capacidades de autoescalamiento de Amazon Web Services. La aplicación MatrixApp tiene esta capacidad y su construcción es un ejemplo de las diferentes oportunidades que nos brinda AWS con esta herramienta.
 
